@@ -8,4 +8,7 @@ def T2Speach():
     
 
 if __name__ == "__main__":
-    T2Speach()    
+    try:
+       T2Speach()
+    except Exception as e:
+        print("Some Thing went Wrong  !")   
