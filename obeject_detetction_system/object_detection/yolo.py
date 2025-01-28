@@ -7,7 +7,6 @@ import pyttsx3
 cap = cv2.VideoCapture(0)
 cap.set(3, 1700)  # Set width
 cap.set(4, 1620)  # Set height
-
 model = YOLO("yolov8n.pt")
 classNames = [
     "person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", 
